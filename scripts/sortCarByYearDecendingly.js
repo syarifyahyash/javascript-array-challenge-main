@@ -10,6 +10,8 @@ function sortCarByYearDescendingly(cars) {
   result.sort(function(a, b) {
     return b.year - a.year;
   });
+
+  
   // Rubah code ini dengan array hasil sorting secara descending
   return result;
 }
